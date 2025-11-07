@@ -14,7 +14,7 @@ function pSeq = bgDiffImg( seq, options )
 % Output:
 %     - pSeq: sequence de difference (non seuillee)
 %
-% Author: Thomas Dietenbeck
+
 	dOptions = struct( 'type', 1, 'tDeb', 1, 'tFin', size(seq, 3), 'refImg', seq(:,:,1), 'tStep', 1, 'alpha', 0.01 );
 	%-- Process inputs
 	if( ~exist( 'options', 'var' ) )

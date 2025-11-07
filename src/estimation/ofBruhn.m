@@ -12,7 +12,7 @@ function [u, v] = ofBruhn( img1, img2, options )
 % Outputs:
 %     - u, v: deplacement suivant x et y
 % 
-% Author: Thomas Dietenbeck
+
     dOptions = struct( 'alpha', 1, 'maxIts', 250, 'tol', 1e-5, 'sW', 2 );
     %-- Process inputs
     if( ~exist( 'options', 'var' ) )

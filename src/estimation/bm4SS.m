@@ -10,7 +10,7 @@ function [u, v] = bm4SS( img1, img2, options )
 % Outputs:
 %     - u, v: deplacement suivant x et y
 % 
-% Author: Thomas Dietenbeck
+
     dOptions = struct( 'dimB', 2, 'dimR', 4 );
     %-- Process inputs
     if( ~exist( 'options', 'var' ) )

@@ -14,7 +14,7 @@ function dSeq = bgACP( seq, options )
 % Output:
 %     - pSeq: probabilite d'etre en mouvement
 % 
-% Author: Thomas Dietenbeck
+
     dOptions = struct( 'tDeb', 1, 'tFin', size(seq, 3), 'N', 25, 'M', 0.8, 'type', 1, 'NMax', 100 );
     %-- Process inputs
     if( ~exist( 'options', 'var' ) )

@@ -11,7 +11,7 @@ function [u, v] = ofHS( img1, img2, options )
 % Outputs:
 %     - u, v: deplacement suivant x et y
 % 
-% Author: Thomas Dietenbeck
+
     dOptions = struct( 'alpha', 1, 'maxIts', 250, 'tol', 1e-5 );
     %-- Process inputs
     if( ~exist( 'options', 'var' ) )

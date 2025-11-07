@@ -10,7 +10,7 @@
 % % Outputs:
 % %     - u, v: deplacement suivant x et y
 % % 
-% % Author: Thomas Dietenbeck
+
 % 
 %     dOptions = struct( 'dimB', 2, 'dimR', 5 );
 %     %-- Process inputs
@@ -196,7 +196,7 @@ function [u, v] = blockMatching( img1, img2, options )
 % Outputs:
 %     - u, v: displacement along x and y
 %
-% Author: Thomas Dietenbeck
+
 
     % Default options
     dOptions = struct('dimB', 2, 'dimR', 5);

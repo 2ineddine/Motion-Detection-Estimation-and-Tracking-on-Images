@@ -14,7 +14,7 @@ function pSeq = bgElgammal( seq, options )
 % Output:
 % 	- pSeq: probabilite d'etre en mouvement
 % 
-% Author: Thomas Dietenbeck
+
     sSeq = size( seq );
     dOptions = struct( 'tDeb', 1, 'tFin', size(seq, 3), 'N', 25, 'type', 0, 'NMax', 100 );
     %-- Process inputs

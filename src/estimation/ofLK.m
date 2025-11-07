@@ -10,7 +10,7 @@ function [u, v] = ofLK( img1, img2, options )
 % Outputs:
 %     - u, v: deplacement suivant x et y
 % 
-% Author: Thomas Dietenbeck
+
 
     dOptions = struct( 'sW', 10, 'typeW', 1 );
     %-- Process inputs
